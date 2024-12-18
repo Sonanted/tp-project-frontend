@@ -1,0 +1,37 @@
+.start-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  text-align: center;
+}
+
+.congratulations-text {
+  font-family: "Commissioner", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 930px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.gradient-button {
+  font-family: "Commissioner", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #b991f0, #9d92f2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gradient-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
